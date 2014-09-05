@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = Jscal2::Rails::VERSION
   spec.authors       = ["John Chen"]
   spec.email         = ["cgg5207@sina.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{The calendar is implemented in pure JavaScript code.}
+  spec.description   = %q{This is a popup or flat DHTML calendar suitable for selecting date/time.}
+  spec.homepage      = "https://github.com/growcn/jscal2-rails"
   spec.license       = "MIT"
 
-  spec.files         = Dir["{lib,app}/**/*"] + ["LICENSE", "README.md"]
+  spec.files         = Dir["{lib,app}/**/*"] + ["LICENSE.txt", "README.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
