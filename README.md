@@ -1,6 +1,6 @@
-# Jscal2::Rails
+# jscal2-rails
 
-TODO: Write a gem description
+This is a popup or flat DHTML calendar suitable for selecting date/time.
 
 ## Installation
 
@@ -17,13 +17,15 @@ Or install it yourself as:
     $ gem install jscal2-rails
 
 ## Usage
+
+add to css file
 ```
 /*
  *= require jscal2/jscal2
 */
-``
+```
 
-
+add to js file
 ```
 //= require jscal2/jscal2
 //= require jscal2/lang/cn
